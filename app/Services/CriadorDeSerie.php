@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Serie;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 
 class CriadorDeSerie
@@ -38,7 +39,7 @@ class CriadorDeSerie
      * @param int $epPorTemporada
      * @param \Illuminate\Database\Eloquent\Model $temporada
      */
-    private function criaEpisodios(int $epPorTemporada, \Illuminate\Database\Eloquent\Model $temporada): void
+    private function criaEpisodios(int $epPorTemporada, Model $temporada): void
     {
         for ($j = 1; $j <= $epPorTemporada; $j++) {
             $temporada->episodios()->create(['numero' => $j]);

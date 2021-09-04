@@ -38,6 +38,6 @@ Route::get('/registrar', 'RegistroController@create');
 Route::post('/registrar', 'RegistroController@store');
 
 Route::get('/sair', function () {
-    \Illuminate\Support\Facades\Auth::logout();
+    Auth::logout();
     return redirect('/entrar');
 });

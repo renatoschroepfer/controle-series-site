@@ -1,7 +1,9 @@
 <?php
 namespace App\Services;
 
-use App\{Serie, Temporada, Episodio};
+use App\Episodio;
+use App\Serie;
+use App\Temporada;
 use Illuminate\Support\Facades\DB;
 
 class RemovedorDeSerie
