@@ -1,8 +1,8 @@
 ## Sistema de controle de Series.
 
-Este é um sistema construindo usando laravel 5.8 para controle de série. Onde nele voce poderá cadastrar sua série
-favorita, quantidade de temporadas e episodios. A cada episodio assistido voce pode sinalizar no Sistema qual episodio
-já assistiu.
+Este sistema está sendo construido usando laravel 5.8 para controle de séries. Onde nele voce poderá cadastrar sua série
+favorita, quantidade de temporadas e episodios. A cada episodio assistido voce pode sinalizar no sistema qual episodio
+você já assistiu.
 
 ### Recursos usados
 
