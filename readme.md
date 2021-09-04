@@ -23,3 +23,12 @@ Após baixar o projeto instale as dependências usando o composer.
 Com o banco de dados já criado. Rode o comando em seu terminal para criar as tabelas.
 
 `php artisan migrate`
+
+
+Execute o projeto usando o comando
+
+`php artisan serve`
+
+Agora acesse no meu navegador 
+
+http://127.0.0.1:8000/
