@@ -11,7 +11,8 @@ Lista de recursos usados para este projeto
 | Recurso     | Link                                               |
 | ----------- | -------------------------------------------------- |
 | Laravel     | https://laravel.com/docs/5.8                       |
-| MariaDB     | 10.1.37-MariaDB                                    |
+| PHP         | https://www.php.net/releases/7_2_0.php             |
+| MariaDB     | https://downloads.mariadb.org/mariadb/10.1.37/                                  |
 | Boostrap    | https://stackpath.bootstrapcdn.com/bootstrap/4.3.1 |
 | Fontawesome | https://use.fontawesome.com/releases/v5.8.1/       |
 
